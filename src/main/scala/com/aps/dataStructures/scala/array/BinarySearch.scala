@@ -1,7 +1,10 @@
 package com.aps.dataStructures.scala.array
 
+import scala.annotation.tailrec
+
 object BinarySearch {
 
+  @tailrec
   def binarySearch(array: Array[Int],
                    item: Int,
                    low: Int,
